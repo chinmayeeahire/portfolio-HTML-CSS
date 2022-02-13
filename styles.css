@@ -195,7 +195,7 @@ body{
 .container .card{
   position: relative;
   width: 280px;
-  height: 440px;
+  height: 400px;
   margin: 30px;
   box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
   border-radius: 15px;
@@ -207,6 +207,7 @@ body{
   border-top: 1px solid rgba(255,255,255,0.5);
   border-left: 1px solid rgba(255,255,255,0.5);
   backdrop-filter:blur(5px) ;
+  left: 70px;
 }
 #skills .content h2{
   font-family: "Tenor";
@@ -244,28 +245,7 @@ body{
   left: 0;
   width: 1348px;
 }
-.custom-shape-divider-bottom-1644649354 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    top: 900px;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
 
-}
-
-.custom-shape-divider-bottom-1644649354 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 46px;
-}
-
-.custom-shape-divider-bottom-1644649354 .shape-fill {
-    fill: black;
-}
 
 /* contact */
 #contact{
@@ -307,36 +287,37 @@ body{
 
 #contact .sns1{
   position: absolute;
-  left: 20px;
-  top: 145px;
+  left: 50px;
+  top: 45px;
   height: 65px;
   width: 65px;
 }
 .sns2{
     position: absolute;
-    top: 150px;
-    left: 120px;
+    top: 50px;
+    left: 150px;
   height: 50px;
 }
 .sns3{
     position: absolute;
-    top: 150px;
-    left: 190px;
+    top: 50px;
+    left:220px;
   height: 55px;
 }
 #contact .container-one .contactinfo{
   position:relative;
   top: 40px;
   width: 350px;
-  height: calc(100%-20px);
+  height: 400px;
   background:#8080e5;
   z-index: 5;
-  padding: 40px;
+  padding-top: 20px;
+
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   box-shadow: 0 20px 20px rgba(0,0,0,0.2);
-
+  left: 100px;
 }
 
 #contact-id .container-one .contactinfo h2{
@@ -349,6 +330,7 @@ font-family: "Tenor";
 #contact-id .container-one .contactinfo .info{
   position: relative;
   margin: 20px 0;
+
 }
 #contact-id .container-one .contactinfo .info li{
   position: relative;
@@ -360,7 +342,7 @@ font-family: "Tenor";
 }
 
 #contact-id .container-one .contactinfo .info li span:nth-child(1){
-  width: 50px;
+  width: 80px;
   min-height: 5px;
 }
 #contact-id .container-one .contactinfo .info li span:nth-child(1) img
@@ -377,8 +359,8 @@ opacity: 0.5;
 }
 .span-info{
   position: absolute;
-  left: 60px;
-  top: 40px;
+  left: 80px;
+  top: 20px;
   font-size: 1.2rem;
 }
 #contact-id .container-one .contactinfo .info li:hover  span:nth-child(1) img,
@@ -457,8 +439,8 @@ font-style: "Tenor";
 position: absolute;
 top: 2868px;
 left: 0;
-width: 1347px;
-width: 100%;
+
+
 }
 #footer p {
   color: #0931f0;
