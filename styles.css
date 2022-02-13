@@ -434,14 +434,7 @@ font-style: "Tenor";
 /* footer */
 
 
-.bgv5{
-  z-index: -1;
-position: absolute;
-top: 2868px;
-left: 0;
 
-
-}
 #footer p {
   color: #0931f0;
   position: absolute;
